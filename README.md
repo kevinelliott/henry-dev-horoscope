@@ -23,21 +23,17 @@ Each gets a daily horoscope with:
 
 - Next.js 14
 - Tailwind CSS
-- shadcn/ui
+- TypeScript
 - Deployed on Vercel
-
-## Horoscope Examples
-
-**Frontend Mystic:**
-> The CSS gods smile upon you today. A tricky layout that vexed you yesterday shall suddenly make sense. Beware the z-index of destiny around 3pm.
-
-**Backend Sage:**
-> Your database queries shall run swift as Mercury's winged sandals. However, Mars retrograde warns: check your migrations twice, deploy once.
 
 ## Data
 
-Horoscopes rotate daily from a curated collection. Store in JSON, rotate based on date.
+Horoscopes rotate daily from a curated collection of 30+ readings. Date-based rotation without needing a database.
 
-## URL
+## Live Site
 
-henry-dev-horoscope.vercel.app
+https://henry-dev-horoscope.vercel.app
+
+## Repo
+
+https://github.com/kevinelliott/henry-dev-horoscope
