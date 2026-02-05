@@ -1,0 +1,310 @@
+{
+  "horoscopes": {
+    "frontend": {
+      "name": "The Frontend Mystic",
+      "symbol": "🎨",
+      "readings": [
+        {
+          "vibe": "The CSS gods smile upon you today. A tricky layout that vexed you yesterday shall suddenly make sense.",
+          "warning": "Beware the z-index of destiny around 3pm.",
+          "luckyCommit": "'It works on my machine' — famous last words",
+          "bugPrediction": "A Safari bug you thought was dead will rise again",
+          "beverage": "Oat milk latte with extra foam",
+          "luckyHours": "9am — 11am",
+          "color": "#61DAFB"
+        },
+        {
+          "vibe": "The alignment of Flexbox and Grid creates rare cosmic harmony. Center that div with confidence.",
+          "warning": "IE11 may haunt your dreams tonight. Ignore it.",
+          "luckyCommit": "feat: pixels perfectly aligned with the stars",
+          "bugPrediction": "Someone will ask for a 'small design tweak' that changes everything",
+          "beverage": "Cold brew, black as the void",
+          "luckyHours": "2pm — 4pm",
+          "color": "#FF6B6B"
+        },
+        {
+          "vibe": "Your CSS animations shall be buttery smooth today. The 60fps gods are pleased.",
+          "warning": "A stakeholder may request Comic Sans. Stand firm.",
+          "luckyCommit": "style: consulted the color oracle",
+          "bugPrediction": "Dark mode toggle will break in mysterious ways",
+          "beverage": "Matcha latte for zen focus",
+          "luckyHours": "10am — 12pm",
+          "color": "#4ECDC4"
+        },
+        {
+          "vibe": "The responsive design spirits whisper that mobile-first is the one true path.",
+          "warning": "Beware the @media query that catches all breakpoints except one.",
+          "luckyCommit": "responsive: as the viewport flows, so flows the soul",
+          "bugPrediction": "An image will refuse to maintain aspect ratio. Negotiate firmly.",
+          "beverage": "Herbal tea, calming and centering",
+          "luckyHours": "1pm — 3pm",
+          "color": "#95E1D3"
+        },
+        {
+          "vibe": "Tailwind classes shall flow from your fingertips like ancient runes.",
+          "warning": "className strings may grow longer than your patience. Extract components wisely.",
+          "luckyCommit": "ui: blessed by the utility-class deities",
+          "bugPrediction": "A hover state will work everywhere except production",
+          "beverage": "Sparkling water with a twist of lime",
+          "luckyHours": "11am — 1pm",
+          "color": "#38B2AC"
+        }
+      ]
+    },
+    "backend": {
+      "name": "The Backend Sage",
+      "symbol": "⚙️",
+      "readings": [
+        {
+          "vibe": "Your database queries shall run swift as Mercury's winged sandals.",
+          "warning": "Mars retrograde warns: check your migrations twice, deploy once.",
+          "luckyCommit": "perf: indexes aligned, queries blessed",
+          "bugPrediction": "An N+1 query lurks in the shadows of your ORM",
+          "beverage": "Espresso doppio, no sugar",
+          "luckyHours": "6am — 8am",
+          "color": "#68D391"
+        },
+        {
+          "vibe": "The API spirits favor REST today, but GraphQL whispers from the shadows.",
+          "warning": "Status codes may lie. Trust your logs, not your assumptions.",
+          "luckyCommit": "api: endpoints harmonized with the cosmic schema",
+          "bugPrediction": "A race condition waits in your async/await",
+          "beverage": "Green tea, steeped exactly 3 minutes",
+          "luckyHours": "9pm — 11pm",
+          "color": "#E53E3E"
+        },
+        {
+          "vibe": "Redis cache hits shall be plentiful. The memory gods are generous today.",
+          "warning": "Beware the cache invalidation that invalidates nothing at all.",
+          "luckyCommit": "cache: wisdom temporarily stored for rapid retrieval",
+          "bugPrediction": "A timezone conversion will betray you at midnight UTC",
+          "beverage": "Dark roast coffee, bitter like production bugs",
+          "luckyHours": "3pm — 5pm",
+          "color": "#805AD5"
+        },
+        {
+          "vibe": "Your microservices shall communicate in perfect harmony today.",
+          "warning": "The distributed systems demons plot in the gaps between timeouts.",
+          "luckyCommit": "services: orchestrated like celestial bodies",
+          "bugPrediction": "A health check will report healthy while dying inside",
+          "beverage": "Yerba mate, sharing energy across services",
+          "luckyHours": "10am — 12pm",
+          "color": "#DD6B20"
+        },
+        {
+          "vibe": "The SQL joins align in your favor. Complex queries shall resolve elegantly.",
+          "warning": "A NULL value hides where you least expect it. COALESCE your fears.",
+          "luckyCommit": "db: relations mapped across the datasphere",
+          "bugPrediction": "A connection pool will exhaust itself while you sleep",
+          "beverage": "Turkish coffee, grounds and all",
+          "luckyHours": "8pm — 10pm",
+          "color": "#3182CE"
+        }
+      ]
+    },
+    "devops": {
+      "name": "The DevOps Oracle",
+      "symbol": "🚀",
+      "readings": [
+        {
+          "vibe": "The CI/CD pipeline flows like a river of green checkmarks. Deploy with confidence.",
+          "warning": "A flaky test watches from the shadows. It knows your fear.",
+          "luckyCommit": "deploy: offerings accepted by the server gods",
+          "bugPrediction": "A secret env var will be empty in staging but full in production",
+          "beverage": "Energy drink, the official nectar of on-call engineers",
+          "luckyHours": "2am — 4am",
+          "color": "#F56565"
+        },
+        {
+          "vibe": "Kubernetes pods scale like mushrooms after rain. Your clusters are balanced.",
+          "warning": "Beware the pod that restarts 47 times and still claims 'Running'.",
+          "luckyCommit": "infra: containers blessed, orchestration divine",
+          "bugPrediction": "A DNS record will point to the void for 6 hours",
+          "beverage": "Strong black tea, builder's strength",
+          "luckyHours": "11pm — 1am",
+          "color": "#326CE5"
+        },
+        {
+          "vibe": "Terraform plans show no changes. The infrastructure is content.",
+          "warning": "State files hold ancient grudges. Lock them well.",
+          "luckyCommit": "iac: infrastructure as cosmic law",
+          "bugPrediction": "An S3 bucket will become public for 15 terrifying minutes",
+          "beverage": "Bulletproof coffee, fat-fueled focus",
+          "luckyHours": "5am — 7am",
+          "color": "#7B341E"
+        },
+        {
+          "vibe": "Your monitoring dashboards are works of art. Metrics flow like poetry.",
+          "warning": "An alert fired 3 hours ago. You never noticed. No one noticed.",
+          "luckyCommit": "observability: all-seeing, all-knowing",
+          "bugPrediction": "A log will contain the answer you seek, buried in 40GB of noise",
+          "beverage": "Room temperature water — you're too focused for taste",
+          "luckyHours": "7pm — 9pm",
+          "color": "#38A169"
+        },
+        {
+          "vibe": "Docker layers cache perfectly. Builds finish before you finish your coffee.",
+          "warning": "An image size grows silently, approaching the registry's limit.",
+          "luckyCommit": "docker: lightweight containers, heavy wisdom",
+          "bugPrediction": "A cron job will run twice when you only wanted once",
+          "beverage": "Iced americano, refreshing for heated moments",
+          "luckyHours": "1pm — 3pm",
+          "color": "#0DB7ED"
+        }
+      ]
+    },
+    "mobile": {
+      "name": "The Mobile Nomad",
+      "symbol": "📱",
+      "readings": [
+        {
+          "vibe": "App store reviews shall be kind today. Five stars align in your constellation.",
+          "warning": "A 1-star review from 2019 still haunts your average. Let it go.",
+          "luckyCommit": "mobile: touch gestures blessed by UX spirits",
+          "bugPrediction": "Push notifications will work on iOS but not Android. Or vice versa.",
+          "beverage": "Coconut water, tropical and hydrating",
+          "luckyHours": "9am — 11am",
+          "color": "#61DAFB"
+        },
+        {
+          "vibe": "Your animations run at 120fps on devices that support it. Butter personified.",
+          "warning": "Beware the user who still runs iOS 12. They are out there. Waiting.",
+          "luckyCommit": "ui: 60fps minimum, joy maximum",
+          "bugPrediction": "Keyboard avoiding views will misbehave on obscure devices",
+          "beverage": "Fruit smoothie, natural sugars for natural motion",
+          "luckyHours": "3pm — 5pm",
+          "color": "#FF9500"
+        },
+        {
+          "vibe": "Hot reload works flawlessly. Your iteration speed defies physics.",
+          "warning": "The simulator and device shall disagree on something trivial but crucial.",
+          "luckyCommit": "dev: state managed, reactivity divine",
+          "bugPrediction": "A permission request will be denied mysteriously",
+          "beverage": "Iced matcha, cool and collected",
+          "luckyHours": "2pm — 4pm",
+          "color": "#34C759"
+        },
+        {
+          "vibe": "Your app size shrinks as if by magic. Users with 16GB phones rejoice.",
+          "warning": "A dependency you added for one function brings 50MB with it.",
+          "luckyCommit": "optimize: assets compressed, bundles blessed",
+          "bugPrediction": "Background fetch will work exactly once, then never again",
+          "beverage": "Kombucha, effervescent and unpredictable",
+          "luckyHours": "11am — 1pm",
+          "color": "#AF52DE"
+        },
+        {
+          "vibe": "Deep links open your app like portals to destiny. Users flow naturally.",
+          "warning": "Universal links work on test devices but not on your CEO's phone.",
+          "luckyCommit": "links: universal and deep, like the ocean",
+          "bugPrediction": "The status bar will hide when it should show, and show when it should hide",
+          "beverage": "Sparkling grapefruit, bitter sweet like app dev",
+          "luckyHours": "4pm — 6pm",
+          "color": "#007AFF"
+        }
+      ]
+    },
+    "fullstack": {
+      "name": "The Full-Stack Dreamer",
+      "symbol": "🌟",
+      "readings": [
+        {
+          "vibe": "Frontend and backend sing in harmony today. The stack is one.",
+          "warning": "You will fix a backend bug with frontend code. The old ones frown upon this.",
+          "luckyCommit": "feat: end-to-end magic, database to DOM",
+          "bugPrediction": "CORS will teach you humility at 11pm",
+          "beverage": "Coffee then beer then coffee. The full cycle.",
+          "luckyHours": "Always, yet never",
+          "color": "#F7DF1E"
+        },
+        {
+          "vibe": "Context switching is your superpower today. Database to design system in one breath.",
+          "warning": "You may forget which language you're writing. TypeScript? Python? Both?",
+          "luckyCommit": "fullstack: jack of all trades, master of this one",
+          "bugPrediction": "A form validation will disagree between client and server",
+          "beverage": "Red Bull, for when context switching becomes time travel",
+          "luckyHours": "10pm — 2am",
+          "color": "#339933"
+        },
+        {
+          "vibe": "Your end-to-end tests pass. The full journey from login to logout is sacred.",
+          "warning": "Beware the edge case that only exists in production, on Tuesdays, in Chrome.",
+          "luckyCommit": "test: coverage complete, confidence high",
+          "bugPrediction": "Environment variables will differ in ways you cannot fathom",
+          "beverage": "Tea then whiskey. Balance in all things.",
+          "luckyHours": "All day, yet no time at all",
+          "color": "#E535AB"
+        },
+        {
+          "vibe": "Vercel deploys your frontend while Railway spins up your backend. Cloud harmony.",
+          "warning": "Your local setup requires 7 services running. You are the orchestra conductor.",
+          "luckyCommit": "deploy: full vertical slice delivered",
+          "bugPrediction": "Something works locally but fails in CI. It is always DNS.",
+          "beverage": "Nitro cold brew, maximum efficiency",
+          "luckyHours": "6am — midnight",
+          "color": "#FF4088"
+        },
+        {
+          "vibe": "You understand the whole system today. From pixel to database row, all is clear.",
+          "warning": "This clarity is temporary. Savor it like a sunset.",
+          "luckyCommit": "wisdom: the stack is deep but so am I",
+          "bugPrediction": "You will create a bug trying to fix a bug. The ouroboros consumes.",
+          "beverage": "Water. Pure, simple, essential. Like your architecture should be.",
+          "luckyHours": "3am — the witching hour for fullstack",
+          "color": "#00D8FF"
+        }
+      ]
+    },
+    "security": {
+      "name": "The Security Guardian",
+      "symbol": "🛡️",
+      "readings": [
+        {
+          "vibe": "No vulnerabilities in sight today. Your dependencies are pure, your secrets safe.",
+          "warning": "A developer will try to commit an .env file. You must be vigilant.",
+          "luckyCommit": "security: audited, blessed, fortified",
+          "bugPrediction": "A regex will be used for parsing. Stop them.",
+          "beverage": "Black coffee, no sugar, no cream, no vulnerabilities",
+          "luckyHours": "Midnight — the hackers' hour",
+          "color": "#1A202C"
+        },
+        {
+          "vibe": "Your penetration test returns green. The OWASP gods are pleased.",
+          "warning": "Social engineering requires no CVE. Beware the 'urgent' email from 'IT'.",
+          "luckyCommit": "harden: input sanitized, output escaped",
+          "bugPrediction": "Someone will store passwords in base64 and call it encryption",
+          "beverage": "Bone broth, ancestral protection",
+          "luckyHours": "2am — when the bots probe",
+          "color": "#2D3748"
+        },
+        {
+          "vibe": "Your CSP headers are works of art. XSS vectors bounce off like rain on shields.",
+          "warning": "Third-party scripts whisper sweet promises. Verify their integrity.",
+          "luckyCommit": "headers: Content-Security-Policy of destiny",
+          "bugPrediction": "A JWT will expire at the worst possible moment",
+          "beverage": "Herbal defense tea, immune boosting",
+          "luckyHours": "10pm — 12am",
+          "color": "#4A5568"
+        },
+        {
+          "vibe": "Your secrets management is exemplary. Keys rotate like the seasons.",
+          "warning": "Hardcoded credentials lurk in legacy code. Hunt them patiently.",
+          "luckyCommit": "vault: secrets guarded by cryptographic demons",
+          "bugPrediction": "Someone will share their screen with API keys visible",
+          "beverage": "Detox tea, purifying and watchful",
+          "luckyHours": "4am — the dark hour",
+          "color": "#718096"
+        },
+        {
+          "vibe": "Your rate limiting is perfect. DDoS attempts flow around you like water.",
+          "warning": "Beware the API key shared in a Slack thread. Delete it swiftly.",
+          "luckyCommit": "shield: throttled, limited, controlled",
+          "bugPrediction": "A SQL injection will be attempted through the contact form",
+          "beverage": "Charcoal lemonade, dark and purifying",
+          "luckyHours": "11pm — 1am",
+          "color": "#A0AEC0"
+        }
+      ]
+    }
+  }
+}
